@@ -30,6 +30,10 @@
   margin: 75px;
 }
 
+.responsive-img {
+  height: auto;
+  width: 100%;
+}
 /*<button style="background-color: #FF4081; color: white" class="z-depth-5" md-button> Making </button>
 <button style="background-color: #FFC107; color: white" class="z-depth-4" md-button> Pretty </button>
 <button style="background-color: #4CAF50; color: white" class="z-depth-3" md-button> Buttons </button>

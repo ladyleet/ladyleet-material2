@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
+import {FlexLayoutModule} from "@angular/flex-layout";
 import { routing, appRoutingProviders } from './app.routing';
 
 import { AppComponent } from './app.component';
@@ -29,7 +30,8 @@ import { HomeComponent } from './home/home.component';
     FormsModule,
     HttpModule,
     MaterialModule.forRoot(),
-    routing
+    routing,
+    FlexLayoutModule.forRoot()
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

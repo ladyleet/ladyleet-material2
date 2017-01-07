@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutComponent } from './about/about.component';
 import { SpeakingComponent } from './speaking/speaking.component';
+import { SpeakingPastComponent } from './speaking/speaking-past.component';
 import { MediaComponent } from './media/media.component';
 import { AssetsComponent } from './speaking/assets/assets.component';
 import { HomeComponent } from './home/home.component';
@@ -23,6 +24,7 @@ import { SocialPicsCardComponent } from './social-pics-card/social-pics-card.com
     NavBarComponent,
     AboutComponent,
     SpeakingComponent,
+    SpeakingPastComponent,
     MediaComponent,
     AssetsComponent,
     HomeComponent,

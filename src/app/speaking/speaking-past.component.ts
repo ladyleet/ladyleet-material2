@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { upcoming } from './upcoming.model';
 
 @Component({
-  selector: 'app-speaking',
+  selector: 'app-speaking-past',
   template: `
   <div class="site-margin-50">
     <app-breadcrumb></app-breadcrumb>
@@ -31,33 +31,28 @@ import { upcoming } from './upcoming.model';
         </div>
       </div>
       <div fxFlex="100" class="card-container">
-          <md-card *ngFor='let event of active' class="margin-10 width-100">
-            <div>
-              <h5><a href='{{event.confLink}}'>{{event.confName}}, {{event.confDate}}, {{event.confCity}}, {{event.confState}}</a></h5>
-              <h5>{{event.confTalkTitle}}</h5>
-              <p>{{event.confTalkBrief}}</p>
-            </div>
-          </md-card>
-      </div>
-
+        <md-card *ngFor='let event of completed' class="margin-10 width-100">
+          <div>
+            <h5><a href='{{event.confLink}}'>{{event.confName}}, {{event.confDate}}, {{event.confCity}}, {{event.confState}}</a></h5>
+            <h5>{{event.confTalkTitle}}</h5>
+            <p>{{event.confTalkBrief}}</p>
+          </div>
+      </md-card>
     </div>
+  </div>
   `,
   styles: []
 })
-export class SpeakingComponent implements OnInit {
-
+export class SpeakingPastComponent implements OnInit {
   upcoming = upcoming;
-
-    get active() {
-      return this.upcoming.filter(x => x.confStatus ==='active');
-    }
 
     get completed() {
       return this.upcoming.filter(x => x.confStatus ==='complete');
     }
-  constructor() { }
 
-  ngOnInit() {
-  }
+    constructor() { }
+
+    ngOnInit() {
+    }
 
 }

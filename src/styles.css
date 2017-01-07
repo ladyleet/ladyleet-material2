@@ -95,8 +95,11 @@ h5 {
   display: flex;
   flex-flow: row wrap;
 }
-.social-image-styling {
+.margin-10 {
   margin: 10px;
+}
+.width-100 {
+  width: 100%;
 }
 /*<button style="background-color: #FF4081; color: white" class="z-depth-5" md-button> Making </button>
 <button style="background-color: #FFC107; color: white" class="z-depth-4" md-button> Pretty </button>

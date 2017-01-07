@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-social-pics-card',
   template: `
   <div fxLayoutAlign="center center" class="card-container">
-    <md-card *ngFor="let picture of pictures" class="social-image-styling">
+    <md-card *ngFor="let picture of pictures" class="margin-10">
       <img class="responsive-img" md-card-image src="/assets/pictures/ladyleet-{{picture.image}}.jpg"/>
     </md-card>
   </div>

@@ -4,9 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <div class="margin-75">
-      <p>
-        home Works!
-      </p>
+      <div>
+        <img class="z-depth-1" src="/assets/ladyleet-main-2.jpg"/>
+        <img src="/assets/ladyleet-main.jpg"/>
+      </div>
     </div>
   `,
   styles: []

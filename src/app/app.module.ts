@@ -11,7 +11,6 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AboutComponent } from './about/about.component';
 import { SpeakingComponent } from './speaking/speaking.component';
 import { MediaComponent } from './media/media.component';
-import { WritingComponent } from './writing/writing.component';
 import { AssetsComponent } from './speaking/assets/assets.component';
 import { HomeComponent } from './home/home.component';
 
@@ -22,7 +21,6 @@ import { HomeComponent } from './home/home.component';
     AboutComponent,
     SpeakingComponent,
     MediaComponent,
-    WritingComponent,
     AssetsComponent,
     HomeComponent
   ],

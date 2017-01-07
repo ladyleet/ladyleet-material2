@@ -14,6 +14,9 @@ import { Component, OnInit } from '@angular/core';
           <button md-button routerLink="/media">MEDIA</button>
         </md-toolbar-row>
         <md-toolbar-row>
+          <button md-button><a class="white" href="http://medium.com/ladyleet/@latest" target="_blank">BLOG</a></button>
+        </md-toolbar-row>
+        <md-toolbar-row>
           <a class="white" href="http://twitter.com/ladyleet" target="_blank"><i class="fa fa-twitter nav-bar-padding"></i></a>
           <a class="white" href="http://github.com/ladyleet" target="_blank"><i class="fa fa-github nav-bar-padding"></i></a>
         </md-toolbar-row>

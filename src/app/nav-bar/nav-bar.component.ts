@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
           <button md-button routerLink="/speaking">SPEAKING</button>
         </md-toolbar-row>
         <md-toolbar-row>
-          <button md-button><a class="white" href="http://medium.com/ladyleet/@latest" target="_blank">BLOG</a></button>
+          <button md-button (click)="goToBlog()">BLOG</button>
         </md-toolbar-row>
         <md-toolbar-row>
           <a class="white" href="http://twitter.com/ladyleet" target="_blank"><i class="fa fa-twitter nav-bar-padding"></i></a>
@@ -55,7 +55,9 @@ import { Component, OnInit } from '@angular/core';
   `]
 })
 export class NavBarComponent implements OnInit {
-
+  goToBlog() {
+    window.location.href='http://www.medium.com/@ladyleet/latest';
+  }
   constructor() { }
 
   ngOnInit() {

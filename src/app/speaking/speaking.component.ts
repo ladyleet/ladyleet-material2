@@ -4,9 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-speaking',
   template: `
   <div class="site-margin-50">
+    <app-breadcrumb></app-breadcrumb>
     <div fxLayout="row">
       <div fxFlex.gt-sm="100" fxFlex="100">
-       <h3 class="center-align primary-color">
+       <h3 class="center-align primary-color margin-top-0">
         Speaking Engagements
        </h3>
       </div>

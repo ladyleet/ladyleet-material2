@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
     <div fxLayout="row">
       <div fxFlex.gt-sm="100" fxFlex="100">
        <h3 class="center-align primary-color">
-        Welcome. Wilkommen. Bienvenido. Huanying.
+        Welcome. Huanying. Wilkommen. Bienvenue.
        </h3>
       </div>
     </div>
@@ -46,9 +46,6 @@ import { Component, OnInit } from '@angular/core';
             </p>
             <p>
               You can find her on Twitter <a href="http://twitter.com/ladyleet" target="_blank">@ladyleet</a>.
-            </p>
-            <p>
-              <button md-raised-button color="primary" routerLink="/about">MORE ABOUT TRACY</button>
             </p>
           </div>
         </div>

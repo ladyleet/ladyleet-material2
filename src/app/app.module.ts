@@ -14,6 +14,8 @@ import { SpeakingComponent } from './speaking/speaking.component';
 import { MediaComponent } from './media/media.component';
 import { AssetsComponent } from './speaking/assets/assets.component';
 import { HomeComponent } from './home/home.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { SocialPicsCardComponent } from './social-pics-card/social-pics-card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { HomeComponent } from './home/home.component';
     SpeakingComponent,
     MediaComponent,
     AssetsComponent,
-    HomeComponent
+    HomeComponent,
+    BreadcrumbComponent,
+    SocialPicsCardComponent
   ],
   imports: [
     BrowserModule,

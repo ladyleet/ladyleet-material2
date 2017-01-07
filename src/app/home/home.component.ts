@@ -4,17 +4,25 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-home',
   template: `
     <div class="margin-75">
-    <md-card>
-     <md-card-content>
-       <div>
-         <div fxLayout="column" fxLayout.xs="column" fxLayout.sm="column" fxFlex class="box" >
-          <img class="responsive-img" src="/assets/ladyleet-main-2.jpg"/>
-           <div fxFlex> I'm above on mobile, and to the left on larger devices.   </div>
-           <div fxFlex> I'm below on mobile, and to the right on larger devices.  </div>
-         </div>
-       </div>
-      </md-card-content>
-   </md-card>
+      <div fxLayout="row">
+
+        <div fxFlex.gt-sm="75" fxFlex="75">
+         <div>
+            LOREM IPSUM LOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUMLOREM IPSUM
+          </div>
+        </div>
+
+        <div fxFlex.gt-sm="25" fxFlex="25">
+          <md-card>
+           <md-card-content>
+             <div>
+                <img class="responsive-img" src="/assets/ladyleet-welcome.png"/>
+              </div>
+            </md-card-content>
+          </md-card>
+        </div>
+
+      </div>
     </div>
   `,
   styles: []

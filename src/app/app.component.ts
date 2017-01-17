@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   <app-nav-bar>
     <router-outlet></router-outlet>
   </app-nav-bar>
-
+  <app-konami></app-konami>
   `
 })
 export class AppComponent {

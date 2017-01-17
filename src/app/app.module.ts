@@ -17,6 +17,7 @@ import { AssetsComponent } from './speaking/assets/assets.component';
 import { HomeComponent } from './home/home.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { SocialPicsCardComponent } from './social-pics-card/social-pics-card.component';
+import { KonamiComponent } from './konami/konami.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SocialPicsCardComponent } from './social-pics-card/social-pics-card.com
     AssetsComponent,
     HomeComponent,
     BreadcrumbComponent,
-    SocialPicsCardComponent
+    SocialPicsCardComponent,
+    KonamiComponent
   ],
   imports: [
     BrowserModule,
